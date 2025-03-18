@@ -1,0 +1,11 @@
+{
+    "platformName": "Android",
+    "appium:deviceName": "Android Emulator",
+    "appium:automationName": "UiAutomator2",
+    "appium:app": "D:\\senior i second term\\software engineering\\Project Testing Set Up\\APK\\com.linkedin.android_v4.1.1040-194800_Android-9.0.apk",
+    "appium:appPackage": "com.linkedin.android",
+    "appium:appActivity": "com.linkedin.android.authenticator.LaunchActivityDefault",
+    "appium:appWaitActivity": "com.linkedin.android.*",
+    "appium:newCommandTimeout": 300
+ }
+ 

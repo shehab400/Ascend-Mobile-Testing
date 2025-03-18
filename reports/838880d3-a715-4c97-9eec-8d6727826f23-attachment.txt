@@ -1,0 +1,6 @@
+✅ Clicked 'Agree to Terms'
+✅ Clicked 'Allow Notifications'
+✅ Clicked 'Join Now'
+✅ Wrote 'First and Last Name'
+✅ Entered Email
+✅ Entered Password
