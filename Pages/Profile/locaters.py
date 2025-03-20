@@ -20,11 +20,14 @@ class ProfiePageLocaters:
     # EDIT EDUCATION IS FOR EACH ELMENT AND THE ID IS SET AUTOMATICALLY 
     ADD_SKILLS_BUTTON = (By.ANDROID_UIAUTOMATOR, 'new UiSelector().text("Add skills")')
     ADD_SKILLS_BUTTON_2 = (By.ACCESSIBILITY_ID, 'Add new skill')
+    NAME = (By.ID, 'com.linkedin.android:id/profile_top_card_name_section')
+    HEADLINE = (By.ID, 'com.linkedin.android:id/profile_top_card_headline')
+    LOCATION = (By.ID, 'com.linkedin.android:id/profile_top_card_location')
     
 
 class EditProfilePageLocaters:
-    FIRST_NAME = (By.ANDROID_UIAUTOMATOR, 'new UiSelector().text("Tarek")') # DYNAMIC LOCATER
-    LAST_NAME = (By.ANDROID_UIAUTOMATOR, 'new UiSelector().text("Mohamed")') # DYNAMIC LOCATER
+    FIRST_NAME = (By.XPATH, '//android.widget.EditText[@resource-id="com.linkedin.android:id/form_edit_text_dash" and contains(@text, "Ta")]') # DYNAMIC LOCATER
+    LAST_NAME = (By.XPATH, '//android.widget.EditText[@resource-id="com.linkedin.android:id/form_edit_text_dash" and contains(@text, "m")]') # DYNAMIC LOCATER
     ADDITIONAL_NAME = (By.ANDROID_UIAUTOMATOR, 'new UiSelector().resourceId("com.linkedin.android:id/form_edit_text_dash").instance(2)') 
     HEADLINE = (By.ID, 'com.linkedin.android:id/form_gai_edit_text')
     INDUSTRY = (By.ID, 'com.linkedin.android:id/form_edit_text_dash')
@@ -32,6 +35,13 @@ class EditProfilePageLocaters:
     ADD_NEW_EDUCATION_BUTTON = (By.ACCESSIBILITY_ID, 'Add new education')
     LOCATION = (By.ANDROID_UIAUTOMATOR, 'new UiSelector().text("Egypt")') # DYNAMIC LOCATER
     CITY = (By.ANDROID_UIAUTOMATOR, 'new UiSelector().text("Giza, Al Jizah")') # DYNAMIC LOCATER
+    SAVE_BUTTON = (By.ACCESSIBILITY_ID, 'Save')
+    FIRST_NAME_AFTER_CLICK = (By.ANDROID_UIAUTOMATOR, 'new UiSelector().resourceId("com.linkedin.android:id/form_edit_text_dash").instance(0)')
+    LAST_NAME_AFTER_CLICK = (By.ANDROID_UIAUTOMATOR, 'new UiSelector().resourceId("com.linkedin.android:id/form_edit_text_dash").instance(1)')
+    DISMISS_BUTTON = (By.ANDROID_UIAUTOMATOR, 'new UiSelector().description("Dismiss")')
+    DISCARD_CHANGES_BUTTON = (By.ID, 'android:id/button1')
+    NAME_ERROR_MESSAGE_1 = (By.XPATH, '(//android.widget.TextView[@resource-id="com.linkedin.android:id/textinput_error"])[1]') 
+    NAME_ERROR_MESSAGE_2 = (By.XPATH, '(//android.widget.TextView[@resource-id="com.linkedin.android:id/textinput_error"])[2]')
     # EDIT CONTACT INFO , WEBSITE, SHOW SCHOOL INFO CHECKBOX    
 
 class CoverPhotoLocaters:

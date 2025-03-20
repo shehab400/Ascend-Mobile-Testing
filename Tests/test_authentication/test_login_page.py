@@ -7,6 +7,7 @@ from logger import logger
 from Test_Cases_Data.Authentication import LoginTestCasesData as TC
 from utility import UtilityFunctions
 
+#login with google is not yet tested
 @pytest.fixture
 def setup_test(appium_driver):
     """Setup function to initialize pages and ensure user is logged out before test"""

@@ -27,7 +27,7 @@ def setup_test(appium_driver):
 
 
 
-#def test_valid_signup(appium_driver, setup_test):
+def test_valid_signup(appium_driver, setup_test):
     """ Test signup Functionality """
     logger.info("Testing Signup")
     signup_page, is_from_landing_page = setup_test

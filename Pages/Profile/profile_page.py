@@ -24,6 +24,9 @@ class ProfiePage(BasePage):
     # EDIT EDUCATION IS FOR EACH ELMENT AND THE ID IS SET AUTOMATICALLY
     ADD_SKILLS_BUTTON = ProfiePageLocaters.ADD_SKILLS_BUTTON
     ADD_SKILLS_BUTTON_2 = ProfiePageLocaters.ADD_SKILLS_BUTTON_2
+    NAME = ProfiePageLocaters.NAME
+    HEADLINE = ProfiePageLocaters.HEADLINE
+    LOCATION = ProfiePageLocaters.LOCATION
     
 
     def click_edit_profile(self):
@@ -87,6 +90,6 @@ class ProfiePage(BasePage):
             self.click(self.ADD_SKILLS_BUTTON_2)
         
 
-    def get_message(self):
-        return self.get_text(self.MESSAGE)
+    def get_message(self, MESSAGE):
+        return self.get_text(MESSAGE)
     
