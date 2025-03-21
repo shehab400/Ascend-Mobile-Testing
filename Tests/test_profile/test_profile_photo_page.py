@@ -40,7 +40,7 @@ def setup_test(appium_driver):
 
     return profile_photo_page, profile_page
 
-#def test_upload_invalid_corrupted_image(appium_driver, setup_test):
+def test_upload_invalid_corrupted_image(appium_driver, setup_test):
     profile_photo_page, _ = setup_test
     logger.info("Testing edit invalid profile image")
     profile_photo_page.click_add_profile_photo()
@@ -89,9 +89,9 @@ def test_edit_valid_image(appium_driver, setup_test):
     profile_photo_page.click_valid_cover_photo()
     time.sleep(2)
     profile_photo_page.click_save()
-    time.sleep(3)
+    time.sleep(5)
     profile_photo_page.click_close()
-    time.sleep(2)   
+    time.sleep(5)   
     try:
         assert "Tark" in profile_page.get_message(profile_page.NAME), "Edit valid profile image test failed"
         logger.info("Edit valid profile image test passed")
