@@ -1,2 +1,0 @@
-Direct connect capabilities from server were:
-directConnectProtocol: '' directConnectHost: '' directConnectPort: '' directConnectPath: '' 
