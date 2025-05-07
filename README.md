@@ -1,7 +1,3 @@
-Here is the **updated full `README.md`** file with the new `Documentation/` folder section included:
-
----
-
 # Ascend Mobile App – Automated Testing Suite
 
 This repository contains the automated test suite for the **Ascend mobile application**, covering functional and regression testing across various modules using Python and a page-object-based framework.
