@@ -30,6 +30,7 @@ def setup_test(appium_driver):
 def test_create_company(appium_driver, setup_test):
     company_page = setup_test
     logger.info("Test: Create Company")
+    time.sleep(2)
     company_page.click_Manage_Company_Button()
     time.sleep(2)
     company_page.click_Create_New_Company_Button()
@@ -70,8 +71,9 @@ def test_create_company(appium_driver, setup_test):
 def test_edit_company_image(appium_driver, setup_test):
     company_page = setup_test
     logger.info("Test: Edit Company Image")
-    company_page.click_Manage_Company_Button()
     time.sleep(2)
+    company_page.click_Manage_Company_Button()
+    time.sleep(4)
     company_page.click_Chosen_Company_To_Edit_Button()
     time.sleep(1)
     company_page.click_Edit_Company_Button()
@@ -98,7 +100,7 @@ def test_edit_company_description(appium_driver, setup_test):
     logger.info("Test: Edit Company Description")
     time.sleep(2)
     company_page.click_Manage_Company_Button()
-    time.sleep(3)
+    time.sleep(4)
     company_page.click_Chosen_Company_To_Edit_Button()
     time.sleep(1)
     company_page.click_Edit_Company_Button()
@@ -124,9 +126,9 @@ def test_edit_company_industry(appium_driver, setup_test):
     company_page = setup_test
     logger.info("Test: Edit Company Industry")
     company_page.click_Manage_Company_Button()
-    time.sleep(3)
+    time.sleep(4)
     company_page.click_Chosen_Company_To_Edit_Button()
-    time.sleep(1)
+    time.sleep(4)
     company_page.click_Edit_Company_Button()
     time.sleep(2)
     company_page.enter_Edit_Industry_Text_Box("anime")

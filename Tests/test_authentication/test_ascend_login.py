@@ -11,26 +11,29 @@ from utility import UtilityFunctions
 def setup_test(appium_driver):
     """Setup function to initialize pages and ensure user is logged out before test"""
     login_page = AscendLoginPage(appium_driver)
-    try:
-        login_page.click_allow_notifications()
-    except:
-        pass
+    # try:
+    #     login_page.click_allow_notifications()
+    # except:
+    #     pass
     try:    
         login_page.click_sign_in()
+        return login_page
     except:
-        pass
-    return login_page
+        logger.info("Cannot click sign in button redirecting to test case")
+        return login_page
+
+    
 
 def test_valid_login(appium_driver, setup_test):
     """Test case for valid login"""
     login_page = setup_test
     logger.info("Testing Valid Login")
 
-    try:
-        login_page.click_allow_notifications()
-    except Exception as e:
-        logger.info(e)
-    login_page.click_sign_in()
+    # try:
+    #     login_page.click_allow_notifications()
+    # except Exception as e:
+    #     logger.info(e)
+    # login_page.click_sign_in()
     login_page.enter_email(TC.TEST_EMAIL)
     appium_driver.hide_keyboard()
     time.sleep(2)
@@ -143,7 +146,7 @@ def test_case_senstive_mail(appium_driver, setup_test):
         time.sleep(3)
         
         try:
-            assert "" in login_page.get_text(login_page.WELCOME_MESSAGE), "Login failed!"
+            assert not login_page.is_visible(login_page.WRONG_PASSWORD_OR_EMAIL_MESSAGE), "Login failed!"
             logger.info("Case senstive email login test passed")
 
         except Exception as e:
