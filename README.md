@@ -13,7 +13,7 @@ This project ensures the quality and reliability of the Ascend app through compr
 * Automated tests for 11 key modules of the app
 * Modular page-object model for maintainability
 * Requirement Traceability Matrix for full coverage mapping
-* Stress testing collaboration with web QA
+* Stress testing
 * Auto-generated bug documentation and test reports
 
 ---
