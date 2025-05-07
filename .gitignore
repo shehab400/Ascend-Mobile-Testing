@@ -2,3 +2,4 @@ Test_Cases_Data/
 reports/
 APK/
 test_logs.log
+__pycache__/
