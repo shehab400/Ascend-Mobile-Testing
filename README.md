@@ -1,6 +1,6 @@
 # Ascend Mobile App – Automated Testing Suite
 
-This repository contains the automated test suite for the **Ascend mobile application**, covering functional and regression testing across various modules using Python and a page-object-based framework.
+This repository contains the automated test suite for the **Ascend mobile application**, covering E2E Testing across various modules using Python and a page-object-based framework.
 
 ---
 
