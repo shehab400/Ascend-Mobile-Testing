@@ -1,4 +1,4 @@
-<h1 align="center"><strong>ASCEND-MOBILE-TESTING</strong></h1>
+<h1 align="center"><strong>Ascend Mobile Testing</strong></h1>
 
 <p align="center"><em>Elevate Your Mobile Testing Experience Effortlessly</em></p>
 
@@ -17,6 +17,7 @@
   <img src="https://img.shields.io/badge/-Appium-purple?logo=appium&logoColor=white" />
   <img src="https://img.shields.io/badge/-Selenium-43B02A?logo=selenium&logoColor=white" />
   <img src="https://img.shields.io/badge/-Pytest-yellow?logo=pytest&logoColor=black" />
+  <img src="https://img.shields.io/badge/-JMeter-D22128?logo=apache&logoColor=white" />
 </p>
 
 
