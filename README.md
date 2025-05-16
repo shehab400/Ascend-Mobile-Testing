@@ -1,8 +1,18 @@
-# Ascend Mobile App – Automated Testing Suite
+# **ASCEND-MOBILE-TESTING**
 
-This repository contains the automated test suite for the **Ascend mobile application**, covering E2E Testing across various modules using Python and a page-object-based framework.
+*Elevate Your Mobile Testing Experience Effortlessly*
+
+![Last Commit](https://img.shields.io/badge/last%20commit-may-blue.svg)
+![Python](https://img.shields.io/badge/python-100%25-blue.svg)
+![Languages](https://img.shields.io/badge/languages-1-brightgreen.svg)
 
 ---
+
+**Built with the tools and technologies:**
+
+![JSON](https://img.shields.io/badge/-JSON-black?logo=json&logoColor=white)
+![Python](https://img.shields.io/badge/-Python-blue?logo=python&logoColor=white)
+
 
 ## Project Overview
 
