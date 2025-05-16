@@ -1,17 +1,25 @@
-# **ASCEND-MOBILE-TESTING**
+<h1 align="center"><strong>ASCEND-MOBILE-TESTING</strong></h1>
 
-*Elevate Your Mobile Testing Experience Effortlessly*
+<p align="center"><em>Elevate Your Mobile Testing Experience Effortlessly</em></p>
 
-![Last Commit](https://img.shields.io/badge/last%20commit-may-blue.svg)
-![Python](https://img.shields.io/badge/python-100%25-blue.svg)
-![Languages](https://img.shields.io/badge/languages-1-brightgreen.svg)
+<p align="center">
+  <img src="https://img.shields.io/badge/last%20commit-may-blue.svg" />
+  <img src="https://img.shields.io/badge/python-100%25-blue.svg" />
+  <img src="https://img.shields.io/badge/languages-1-brightgreen.svg" />
+</p>
 
 ---
 
-**Built with the tools and technologies:**
+<p align="center"><em>Built with the tools and technologies:</em></p>
 
-![JSON](https://img.shields.io/badge/-JSON-black?logo=json&logoColor=white)
-![Python](https://img.shields.io/badge/-Python-blue?logo=python&logoColor=white)
+<p align="center">
+  <img src="https://img.shields.io/badge/-JSON-black?logo=json&logoColor=white" />
+  <img src="https://img.shields.io/badge/-Python-blue?logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/-Appium-purple?logo=appium&logoColor=white" />
+  <img src="https://img.shields.io/badge/-Selenium-43B02A?logo=selenium&logoColor=white" />
+  <img src="https://img.shields.io/badge/-Pytest-yellow?logo=pytest&logoColor=black" />
+</p>
+
 
 
 ## Project Overview
