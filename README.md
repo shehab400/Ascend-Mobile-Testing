@@ -13,7 +13,6 @@
 <p align="center"><em>Built with the tools and technologies:</em></p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/-JSON-black?logo=json&logoColor=white" />
   <img src="https://img.shields.io/badge/-Python-blue?logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/-Appium-purple?logo=appium&logoColor=white" />
   <img src="https://img.shields.io/badge/-Selenium-43B02A?logo=selenium&logoColor=white" />
